@@ -40,8 +40,10 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#active">Why should I be active?</a></li>
+              <li><a href="#quiz">Quiz</a></li>
+              <li><a href="#quiz">BMI Tracker</a></li>
+              <li><a href="#quiz">Podcast</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -133,10 +135,63 @@
                     	For more information, check out the BMI Tracker page!
                     </p>
                     <br>
-                    <button class="btn btn-large btn-block btn-primary" type="button">BMI Tracker</button> 
+                    <button class="btn btn-large btn-block btn-getupgetmoving" type="button">BMI Tracker</button> 
               </div>
          </div>
+         <hr class="soften">
+         	<div class="row-fluid">
+         		<div class="span5">
+              		<h2 class="h2info text-center">
+                		Take our quiz!
+                	</h2>
+                    <p class="pinfo text-center">
+                    	She how much you really know about healthy eating and fitness!
+                    </p>
+                    <p class="pinfo text-center">
+                    	For more information, check out the Quiz page!
+                    </p>
+                    <br>
+                    <button class="btn btn-large btn-block btn-getupgetmoving" type="button">Take the quiz!</button> 
+              	</div>
+                <div class="span7">
+                	<div id="quiz-slider" class="carousel slide">
+                      <ol class="carousel-indicators">
+                        <li data-target="#quiz-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#quiz-slider" data-slide-to="1" class></li>
+                      </ol>
+                      <!-- Carousel items -->
+                      <div class="carousel-inner">
+                        <div class="active item">
+                            <img src="assets/img/carousel/quiz-1.png" alt="Take the Quiz!">
+                            <div class="carousel-caption">
+                              <h4>Take the Quiz!</h4>
+                              <p>How much do you really know?</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/carousel/quiz-2.png" alt="BMI Tracker">
+                            <div class="carousel-caption">
+                              <h4>Take the Quiz!</h4>
+                              <p>How much do you really know?</p>
+                            </div>
+                        </div>
+                      </div>
+                      <!-- Carousel nav -->
+                      <a class="carousel-control left" href="#quiz-slider" data-slide="prev">&lsaquo;</a>
+                      <a class="carousel-control right" href="#quiz-slider" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
+         	</div>
+         </div>
     </div> <!-- /container -->
+    <div class="footerbar">
+    	<p class="footerinfo text-center">
+        	Designed by James Peters using the ever so awesome <a href="http://twitter.github.io/">Bootstrap</a> development kit.
+    	</p>
+        <p class="footerinfo text-center">
+			<a href="http://glyphicons.com/">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+        </p>
+    </div>
 
     <!-- Le javascript
     ================================================== -->
@@ -156,6 +211,10 @@
     <script src="assets/js/bootstrap-typeahead.js"></script>
     <script>
 	$('#bmi-tracker').carousel({
+    'interval' : 5000
+	});
+	
+	$('#quiz-slider').carousel({
     'interval' : 5000
 	});
 	</script>

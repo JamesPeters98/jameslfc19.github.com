@@ -67,7 +67,7 @@ padding: 0px;
 	color: white;
 	padding: 10px 30px 10px 30px;
 	font-size:20px;
-
+	text-shadow:none;
 	background-color: #00c6ff;
   	*background-color: #124e64;
   	background-image: -moz-linear-gradient(top, #00c6ff, #124e64);
