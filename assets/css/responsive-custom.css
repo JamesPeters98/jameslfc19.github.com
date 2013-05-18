@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 980px) {
+	body {
+        padding-top: 40px; /* 360px to make the container go all the way to the bottom of the logo viewer */
+      }
+}
+
+@media (max-width: 979px) {
+	body {
+        padding-top: 0px; /* 360px to make the container go all the way to the bottom of the logo viewer */
+      }
+}
+
+.logobar {
+	margin-left:-20px;
+	margin-right:-20px;	
+}
