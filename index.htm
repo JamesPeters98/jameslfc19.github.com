@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>GetUpGetMovingr</title>
+    <title>GetUpGetMoving</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -68,13 +68,74 @@
       </div>
       <!-- end logo bar -->
 
+	<div class="paddingbar">
+    
+    </div>
+
 	<!-- Main Content -->
     <div class="container">
-
-      <blockquote>
-        <h1>GetUpGetMoving</h1>
-        <p>Why don't you, GetUpGetMoving?</p>
-      </blockquote>
+    	<div class="padding">
+			<div class="row-fluid">
+        		<div class="span12">
+            		<h1 class="maininfo text-center">
+                		Intoducing GetUpGetMoving!
+                	</h1>
+                    <p class="extrainfo text-center">
+                    	The best way to get fit and healthy!
+                    </p>
+            	</div>
+             </div>
+             <div class="row-fluid">
+                <div class="span8">
+                <div id="bmi-tracker" class="carousel slide">
+                  <ol class="carousel-indicators">
+                    <li data-target="#bmi-tracker" data-slide-to="0" class="active"></li>
+                    <li data-target="#bmi-tracker" data-slide-to="1" class></li>
+                    <li data-target="#bmi-tracker" data-slide-to="2" class></li>
+                  </ol>
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="active item">
+                    	<img src="assets/img/carousel/spreadsheet-1.png" alt="Personal Details">
+                        <div class="carousel-caption">
+                          <h4>Personal Details</h4>
+                          <p>An easy way to let the BMI Tracker get to know you!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<img src="assets/img/carousel/spreadsheet-2.png" alt="BMI Tracker">
+                        <div class="carousel-caption">
+                          <h4>The BMI Tracker</h4>
+                          <p>An easy way to manage your BMI and weight loss!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                    	<img src="assets/img/carousel/spreadsheet-3.png" alt="Meal & Activity Plan">
+                        <div class="carousel-caption">
+                          <h4>Meal & Activity Plan</h4>
+                          <p>Easily manage your Meals and Activities you do daily, and weekly..</p>
+                        </div>
+                    </div>
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="carousel-control left" href="#bmi-tracker" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#bmi-tracker" data-slide="next">&rsaquo;</a>
+                </div>
+              </div>
+              <div class="span4">
+              		<h2 class="h2info text-center">
+                		A simple BMI Tracker!
+                	</h2>
+                    <p class="pinfo text-center">
+                    	The best way to monitor your BMI and weight!
+                    </p>
+                    <p class="pinfo text-center">
+                    	For more information, check out the BMI Tracker page!
+                    </p>
+                    <br>
+                    <button class="btn btn-large btn-block btn-primary" type="button">BMI Tracker</button> 
+              </div>
+         </div>
     </div> <!-- /container -->
 
     <!-- Le javascript
@@ -93,6 +154,11 @@
     <script src="assets/js/bootstrap-collapse.js"></script>
     <script src="assets/js/bootstrap-carousel.js"></script>
     <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script>
+	$('#bmi-tracker').carousel({
+    'interval' : 5000
+	});
+	</script>
 
   </body>
 </html>
